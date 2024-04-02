@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 49, 63);
+}
+mat-icon{
+    left: 25px;
+}
+mat-icon:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+th{
+    padding-top: 35px;
+    display: block;
+    align-items: center;
+}
+tr{
+    padding: 0 2%; 
+    font-size: 30px;
+    display: inline-block;
+    width: 15%;
+}
+
+tr:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.selected-tr{
+    text-decoration: underline;
+
+    font-weight: bolder;
+    
+}
+
+.select-home{
+    font-weight: 900;
+}

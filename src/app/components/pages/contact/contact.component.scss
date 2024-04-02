@@ -1,0 +1,41 @@
+:host{
+    display: block;
+}
+
+.mat-card{
+    display: block;
+    height: 90%;
+    margin-top: 5% ;
+    width:90%;
+    margin-left: 5%;
+    opacity: 0.1;
+    background-color: darkgrey;
+}
+
+.mat-card-content{
+    width: 40%;
+    padding: 0 5%;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+    img{
+        margin-top: 5px;
+        height: 25px;
+        padding-right: 5px;
+    }
+    
+}
+
+.mat-card-content:hover{
+    img{
+        margin-top: 8px;
+        height: 28px;
+        padding-right: 5px;
+    }
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
