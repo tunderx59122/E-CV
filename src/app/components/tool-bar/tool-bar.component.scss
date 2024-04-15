@@ -1,14 +1,16 @@
 body{
-    background-color: rgb(255, 49, 63);
+
+    background: linear-gradient(180deg, #03243c, #000102); /* Définir le dégradé */
 }
 mat-icon{
     left: 25px;
+    color: yellow;
 }
 mat-icon:hover{
     text-decoration: underline;
     font-weight: 900;
     font-size: 20px;
-
+    color: white;
     cursor: pointer;
 }
 
@@ -18,16 +20,20 @@ th{
     align-items: center;
 }
 tr{
+    color: yellow;
     padding: 0 2%; 
-    font-size: 30px;
+    font-size: 28px;
     display: inline-block;
     width: 15%;
+
 }
 
 tr:hover{
     text-decoration: underline;
     font-weight: bolder;
     cursor: pointer;
+    color: white;
+
 }
 
 .selected-tr{

@@ -1,0 +1,30 @@
+mat-card{
+    position: relative;
+    top: 1%;
+    
+    left: 10%;
+    height:fit-content;
+    width: 80%;
+    background-color: rgba(0,0,0, 0.6);
+
+}
+
+li{
+    display: flex;
+    h4{
+        margin-left: 5px ;
+    }
+    
+}
+
+.contenu{
+    h2{
+        text-shadow: 1.5px 1.5px grey;
+        font-weight: 600;
+    }
+    position: relative;
+    opacity:initial;
+    color: white;
+    left: 1%;
+    top: 10%;
+}

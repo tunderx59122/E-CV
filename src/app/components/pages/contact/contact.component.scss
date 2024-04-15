@@ -3,13 +3,13 @@
 }
 
 .mat-card{
-    display: block;
-    height: 90%;
-    margin-top: 5% ;
-    width:90%;
-    margin-left: 5%;
-    opacity: 0.1;
-    background-color: darkgrey;
+    position: relative;
+    top: 1%;
+    
+    left: 10%;
+    height:fit-content;
+    width: 80%;
+    background-color: rgba(85, 85, 85, 0.3);
 }
 
 .mat-card-content{
@@ -17,7 +17,7 @@
     padding: 0 5%;
     font-size: 30px;
     text-decoration: none;
-    color: black;
+    color: white;
     opacity: 1;
     img{
         margin-top: 5px;

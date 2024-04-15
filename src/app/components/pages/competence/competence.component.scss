@@ -1,12 +1,48 @@
 mat-card{
-    height: 80%;
-    margin: 2% 10%;
-    background-color: darkgrey;
-    opacity: 10%;
-    p{
-        
-        opacity: 100%;
-        color: white;
+    position: relative;
+    top: 1%;
+    
+    left: 10%;
+    height:fit-content;
+    width: 80%;
+    background-color: rgba(0,0,0, 0.6);
+}
+
+
+.texte{
+    h2{
+        text-shadow: 1.5px 1.5px grey;
+        font-weight: 600;
+    }
+    position: relative;
+    opacity:initial;
+    color: white;
+    left: 1%;
+    top: 1%;
+}
+
+
+li{
+    display: flex;
+    h4{
+        margin-left: 5px ;
+    }
+    
+}
+
+p{
+    margin-left: 30px;
+}
+
+.vuejs{
+    display: flex;
+    img{
+        margin: 0px 5px;
     }
 }
 
+
+.style-adjustement{
+
+    height: 3%;
+}

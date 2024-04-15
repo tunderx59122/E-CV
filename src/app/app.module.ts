@@ -11,6 +11,8 @@ import { MatCardModule } from '@angular/material/card'
 import { AboutMeComponent } from './components/pages/AboutMe/AboutMe.component';
 import { MyExperiencesComponent } from './components/pages/MyExperiences/MyExperiences.component';
 import {MatIconModule} from '@angular/material/icon';
+import {MatTooltipModule} from '@angular/material/tooltip';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import {MatIconModule} from '@angular/material/icon';
     ContactComponent,
     CompetenceComponent,
     AboutMeComponent,
-    MyExperiencesComponent
+    MyExperiencesComponent,
+    
 
   ],
   imports: [
@@ -27,7 +30,8 @@ import {MatIconModule} from '@angular/material/icon';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    MatTooltipModule
     
   ],
   providers: [],
