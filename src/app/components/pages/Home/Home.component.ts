@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
   }
 
   downloadFile() {
-    const filePath = `../../../../assets/CV.pdf`;
+    const filePath = `assets/CV.pdf`;
     const link = document.createElement('a');
     link.href = filePath;
     link.download = "CV.pdf";
