@@ -6,6 +6,7 @@ import { ContactComponent } from './components/pages/contact/contact.component';
 import { CompetenceComponent } from './components/pages/competence/competence.component';
 import { MyExperiencesComponent } from './components/pages/MyExperiences/MyExperiences.component';
 import { AboutMeComponent } from './components/pages/AboutMe/AboutMe.component';
+import { HomeComponent } from './components/pages/Home/Home.component';
 
 
 export const routes: Routes = [
@@ -29,6 +30,10 @@ export const routes: Routes = [
   {
     path: 'about-me',
     component: AboutMeComponent
+  },
+  {
+    path: '',
+    component: HomeComponent
   }
   
 ];

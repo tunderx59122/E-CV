@@ -17,10 +17,11 @@ constructor(private router : Router){
     switch(selected_route){
       case "competences":
         return 1;
-      case "about-me":
-        return 2;
       case "my-experiences":
-        return 3
+        return 2
+      case "about-me":
+        return 3;
+      
       case "contacts":
         return 4
       default:

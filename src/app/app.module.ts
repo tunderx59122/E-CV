@@ -12,6 +12,12 @@ import { AboutMeComponent } from './components/pages/AboutMe/AboutMe.component';
 import { MyExperiencesComponent } from './components/pages/MyExperiences/MyExperiences.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatStepperModule} from '@angular/material/stepper';
+import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatChipsModule} from '@angular/material/chips';
+import { HomeComponent } from './components/pages/Home/Home.component';
+
 
 
 @NgModule({
@@ -22,6 +28,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     CompetenceComponent,
     AboutMeComponent,
     MyExperiencesComponent,
+    HomeComponent
     
 
   ],
@@ -31,7 +38,11 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     BrowserAnimationsModule,
     MatCardModule,
     MatIconModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatStepperModule,
+    MatFormFieldModule,
+    MatButtonModule,
+    MatChipsModule
     
   ],
   providers: [],

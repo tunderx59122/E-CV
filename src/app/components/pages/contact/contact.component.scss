@@ -1,41 +1,36 @@
-:host{
-    display: block;
-}
 
-.mat-card{
-    position: relative;
-    top: 1%;
-    
-    left: 10%;
-    height:fit-content;
-    width: 80%;
-    background-color: rgba(85, 85, 85, 0.3);
-}
 
-.mat-card-content{
-    width: 40%;
-    padding: 0 5%;
-    font-size: 30px;
-    text-decoration: none;
+mat-card{
+    display: inline-block;
+    margin-top: 1%;
+    margin: 1%;
+    width: calc(94% / 3);
+    background-color:rgba(0, 0, 0, 0.6);
+    align-items: center;
     color: white;
-    opacity: 1;
+    height: 80%;
     img{
-        margin-top: 5px;
-        height: 25px;
-        padding-right: 5px;
+        margin-top: 20%;
+        margin-left: 25%;
+        width: 50%;
+        height: width;
     }
     
-}
 
-.mat-card-content:hover{
-    img{
-        margin-top: 8px;
-        height: 28px;
-        padding-right: 5px;
+    h1{
+        margin-top: 10%;
+        text-align: center;
+        font-size: 500%;
     }
 }
 
-a:hover{
-    text-decoration: underline;
-    font-weight: bolder;
+mat-card:hover{
+    img{
+        width: 51%;
+        height: width;
+    }
+    h1{
+        text-decoration: underline;
+    }
+    cursor: pointer;
 }

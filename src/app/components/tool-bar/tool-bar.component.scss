@@ -38,11 +38,15 @@ tr:hover{
 
 .selected-tr{
     text-decoration: underline;
-
+    color: white;
     font-weight: bolder;
     
 }
 
 .select-home{
+    text-decoration: underline;
     font-weight: 900;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
 }

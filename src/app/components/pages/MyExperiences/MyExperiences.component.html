@@ -1,3 +1,148 @@
-<p>
-  MyExperiences works!
-</p>
+<mat-stepper orientation="vertical" >
+  <mat-step>
+    <ng-template matStepLabel class="cat"> <mat-icon>home</mat-icon> <p class="cat-title">&nbsp; Lycée </p></ng-template>
+    <ng-template matStepContent class="content" style="height: fit-content;">
+      <div>
+        <h1 class="title">
+          <img src="../../../../assets/images/angellier.png" alt="" > 
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;Lycée Auguste Angellier - Dunkerque</p>
+
+        </h1>
+          <mat-card style="display: inline-block; margin-left :15px;">
+            <ul>
+              <h2 style="font-weight: 900;">1ère :</h2>
+              <h4 style="font-weight: bold;">spécialités :</h4>
+              <li>
+                <mat-chip style="background-color: rgba(255, 0, 0, 0.6);">Mathématique</mat-chip>
+                <mat-chip style="background-color: rgba(0, 0, 255, 0.6);">Physique-Chimie</mat-chip>
+                <mat-chip style="background-color: rgba(120, 120, 120, 0.6);">Numérique Et Sciences De L'Informatique</mat-chip>
+              </li>
+              <h4 style="font-weight: bold;">Options :</h4>
+              <li>
+                <mat-chip style="background-color: rgba(0, 176, 0, 0.6);">LV3 : Italien</mat-chip>
+              </li>
+            </ul>
+          </mat-card>
+          <mat-card>
+            <ul>
+              
+               <h2 style="font-weight: 900;">Terminale :</h2>
+              
+              <h4 style="font-weight: bold;">spécialités :</h4>
+              <li>
+                <mat-chip style="background-color: rgba(255, 0, 0, 0.6);">Mathématique</mat-chip>
+                <mat-chip style="background-color: rgba(120, 120, 120, 0.6);">Numérique Et Sciences De L'Informatique</mat-chip>
+              </li>
+              <h4 style="font-weight: bold;">Option(s) :</h4>
+              <li>
+                <mat-chip style="background-color: rgba(0, 176, 0, 0.6);">LV3 <mat-icon style="font-size:medium; height:15px">arrow_forward</mat-icon> LV2 : Italien</mat-chip>
+                <mat-chip style="background-color: rgba(255, 0, 0, 0.6);"> Mathématiques expertes </mat-chip>
+              </li>
+            </ul>
+          </mat-card>
+            <br> <br>          
+      </div>
+      <button mat-button matStepperNext>Next</button>
+    </ng-template>
+  </mat-step>
+
+
+
+  <mat-step>
+    <ng-template matStepLabel><mat-icon>school</mat-icon> <p class="cat-title">&nbsp; Études </p> </ng-template>
+    <ng-template matStepContent class="content">
+
+      <h1 class="title">
+        <img src="./../../../assets/images/IUT.jfif" alt=""> 
+        <p>&nbsp;&nbsp;&nbsp;&nbsp; IUT du Littoral Côte d'Opale - Calais</p>
+      </h1>
+
+      <mat-card>
+        <ul>
+          
+           <h2 style="font-weight: 900;">1ère et 2ème année - BUT informatique (Filière Intégrée)</h2>
+          
+          <h4 style="font-weight: bold;">choix de parcours :</h4>
+          <li>
+              Parcours A : réalisation d'applications conception développement validation
+          </li>
+          
+        </ul>
+      </mat-card>
+      <mat-card>
+        <ul>
+          
+           <h2 style="font-weight: 900;">3ème année - BUT informatique (Apprentissage)</h2>
+          
+          <h4 style="font-weight: bold;">Poste :</h4>
+          <li>
+              ArcelorMittal : apprenti analyste Développeur Fullstack
+          </li>
+          
+        </ul>
+      </mat-card>
+      <br> <br>
+
+    <mat-card class="diplome"><h1 class="bac"> Diplôme En Préparaion : BUT Informatique</h1></mat-card>
+    <br> <br>
+
+    <br> <br>
+      <button mat-button matStepperPrevious>Back</button>
+      &nbsp;
+      <button mat-button matStepperNext>Next</button>
+    </ng-template>
+  </mat-step>
+
+
+
+  <mat-step>
+    <ng-template matStepLabel> <mat-icon>build</mat-icon> <p class="cat-title">&nbsp; Mes Expériences Professionnel </p></ng-template>
+    <ng-template matStepContent class="content">
+      <mat-card>
+        <ul>
+          
+           
+            <img src="../../../../assets/images/XL.png" alt="" style="width: 40px; height: 40px;">
+            <h2 style="font-weight: 900;" class="cat-title"> &nbsp;&nbsp;XL - Adinkerke (2022 - Aujourd'hui)</h2>
+          
+          <h4 style="font-weight: bold;">mission :</h4>
+          <li>
+              Job étudiant : vente, mise en rayon et récupération de consignes de bières
+          </li>
+          
+        </ul>
+      </mat-card>
+
+      <mat-card>
+        <ul>
+          
+          <h2 style="font-weight: 900;">Intérim en usine - Furnes (été 2022) </h2>
+          
+          <h4 style="font-weight: bold;">Missions :</h4>
+          <li>
+              usine de viandes (assistant boucher)
+          </li>
+          <li>
+            usine de chocolat (employé de ligne)
+          </li>
+          
+        </ul>
+      </mat-card>
+
+      <mat-card style="width: 100%;">
+        <ul>
+          
+          <img src="../../../../assets/images/AMF.png" alt="" style="width: 100px; height: 40px;">
+            <h2 style="font-weight: 900;" class="cat-title"> &nbsp;&nbsp;Alternance à ArcelorMittal France (site de Dunkerque)</h2>
+          <h2 style="font-weight: 900;"></h2>
+          
+          
+          
+        </ul>
+      </mat-card>
+
+      <br>
+      <button mat-button matStepperPrevious>Back</button>
+    </ng-template>
+  </mat-step>
+</mat-stepper>

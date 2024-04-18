@@ -1,0 +1,53 @@
+mat-stepper{
+    background-color: rgba(0,0,0, 0.6);
+    color: white;
+    min-height: 100%;
+}
+
+button{
+    background-color: rgba(55, 56, 97, 0.9);
+}
+mat-chip{
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.title{
+    img{
+        display: inline-flex;
+        width: 100px;
+        height: 100px;
+    }
+    p{
+        display: inline-flex;
+        vertical-align:100%;
+        font-size: 50px;
+    }
+    text-align: center;
+
+}
+
+mat-card{
+    display: inline-block;
+    width: 47%;
+    margin: 1%;
+    background-color: rgba(0,0,0, 0.6);
+    vertical-align: top;
+}
+.bac{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.diplome{
+    width: 84%; 
+    margin: 0 8%; 
+    padding: 2%;
+}
+
+.cat-title{
+    display: inline-block; 
+    vertical-align : 30%; 
+  
+}
