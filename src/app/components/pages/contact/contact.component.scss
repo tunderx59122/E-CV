@@ -25,6 +25,8 @@ mat-card{
     a{
         height: 100%;
         width: 100%;
+        text-decoration: none;
+        color: white;
     }
 }
 
@@ -37,4 +39,7 @@ mat-card:hover{
         text-decoration: underline;
     }
     cursor: pointer;
+    a{
+        text-decoration: underline;
+    }
 }
